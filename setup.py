@@ -91,7 +91,7 @@ setup(
         'azure': azure_deps,
         'all': all_deps,
     },
-    python_requires=">=3.5.*",
+    python_requires=">=3.5,<4.0",
 
     test_suite="smart_open.tests",
 
